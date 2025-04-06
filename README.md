@@ -1,1 +1,13 @@
-# status-bar-app
+# spotify-status-bar
+
+## Description
+**For MacOS only**
+Displays the current song in the menu bar. Click on it to open the menu.
+Menu:
+* play/pause
+* Quit
+
+## Usage
+1. Clone the repo
+2. Install dependencies `pip install -r requirements.txt`
+3. Run the program `python main.py`

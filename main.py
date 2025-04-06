@@ -7,10 +7,9 @@ play_pause_script = "osascript -e 'tell application \"Spotify\" to playpause'"
 class SpotifyStatusBarApp(rumps.App):
     def __init__(self):
         super(SpotifyStatusBarApp, self).__init__(get_current_track())
-        #self.menu = ['play/plause']
 
     @rumps.clicked('play/pause')
-    def idk(self, _):
+    def playpause(self, _):
         system(play_pause_script)
 
     @rumps.timer(1)

@@ -2,7 +2,7 @@
 
 ## Description
 **For MacOS only**<br>
-Displays the current song in the menu bar. Click on it to open the menu.<br>
+Displays the current song in the menu bar. Click on it to open the menu.<br><br>
 **Menu**:
 * play/pause
 * Quit

@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from time import sleep
 
-SPOTIPY_CLIENT_ID = 'f049ec6107994ffb84fb6b29c140cf49'
-SPOTIPY_CLIENT_SECRET = 'd6d19bc2c335413abcb71006196ea2a5'
+SPOTIPY_CLIENT_ID = 'id_goes_here'
+SPOTIPY_CLIENT_SECRET = 'secret_goes_here'
 REDIRECT_URI = 'http://localhost:8888/'
 SCOPES = ['user-read-currently-playing']
 
